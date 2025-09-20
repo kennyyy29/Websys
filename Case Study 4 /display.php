@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <div class="container">
-    <h2>Submitted Bio-Data</h2>
+    <h2>Bio-Data</h2>
 
     
     <div class="section">

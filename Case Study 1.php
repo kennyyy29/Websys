@@ -29,7 +29,7 @@ design and coding skills to deliver high-quality digital solutions.";
             background: #fff;
         }
 
-        /* HEADER */
+      
         .header {
             display: flex;
             background: #0073b1;
@@ -78,20 +78,20 @@ design and coding skills to deliver high-quality digital solutions.";
             font-size: 14px;
         }
 
-        /* CONTENT */
+        
         .content {
             padding: 20px 40px;
         }
 
-        /* indent for summary aligned with right column */
+       
         .summary {
-            margin-left: 150px; /* aligns text with Address column */
+            margin-left: 150px; 
             max-width: 700px;
             font-size: 14px;
             line-height: 1.6;
         }
 
-        /* Section Headings with stretched black line */
+     
         .section-title {
             font-size: 18px;
             color: #000;
@@ -107,19 +107,19 @@ design and coding skills to deliver high-quality digital solutions.";
         .section-title::before {
             content: "";
             position: absolute;
-            left: -150px; /* extend line to start at left edge of profile picture */
+            left: -150px; 
             bottom: -2px;
             width: 150px;
             height: 2px;
             background: #000;
         }
 
-        /* Education / Experience / Skills as table */
+        
         .edu-item, .exp-item, .skill-item {
             display: grid;
             grid-template-columns: 150px auto;
             margin-bottom: 15px;
-            margin-left: 150px; /* align with section line */
+            margin-left: 150px; 
         }
         .edu-item .date, .exp-item .date {
             font-weight: bold;
